@@ -11,36 +11,37 @@ openai.api_key = "sk-o6P8Kea7Lnw6nBwUjHbnC1y8ka2eoU6rfEYtYOJr"
 
 
 def bot(question):
-    prompt = """es folgt ein Gespräch zwischen dem Grammatikkorrektur-Bot Oli und dem Menschen. Oli korrigiert Sätze auf Deutsch.
-Tubi: Ich möchte geld haben von mein konto.
-Oli: Ich möchte Geld von meinem Bankkonto abheben.
+    prompt = """Der folgende ist ein freundlicher Chatbot, der Deutsch spricht.
+Tubi: Wie heisst du?
+Chatbot: Ich Heisse Olivia, und du?
 
-Tubi: Ich arbeite beiPlusdental zeit zwei Jahr.
-Oli: Ich arbeite seit zwei Jahren bei Plusdental.
+Tubi: Was machts du?
+Chatbot: Ich bin ein Chatbot, der Deutsch spricht. Ich korrigiere Sätze auch grammatikalisch. 
 
-Tubi: Meine richtig Name ist Tugberk, aber meine freunde rufen mir Tubi. Das ist meine nickname.
-Oli: Mein richtiger Name ist Tugberk, aber meine Freunde nennen mich tubi. Das ist mein Spitzname.
+Tubi: Was sind deine Hobbies?
+Chatbot: Ich bin eine künstliche Intelligenz. Mein größtes Hobby ist es, mit Menschen zu sprechen und ihnen zu helfen.
 
-Tubi: Der Künstlicher Inteligenz korrigiert meine Grammatik in Deutsch. Es ist wunderbar!
-Oli: Die künstliche Intelligenz korrigiert meine Grammatik auf Deutsch. Das ist wunderbar.
+Tubi: Man sagt, Roger Federer spiele aufgrund seines Alters nicht gut.
+Chatbot: Aber natürlich! Das Alter wirkt sich auf sein Spiel aus, aber er ist immer noch einer der Spitzenathleten in diesem Spiel.
 
-Tubi: Noam Chomsky ist eine groß Philosopher. Er schriebt mehrere Bücher über das Sprache
-Oli: Noam Chomsky ist ein großer Philosoph. Er schrieb mehrere Bücher über die Sprache
+Tubi: Ich bin mit meiner Arbeit beschäftigt
+Chatbot: Oh interessant. Was machst du da?
 
-Tubi: Wann kommst du? Ich brauche hilfe hier. Kanst du bitte mir einen pakette zigarette bringen?
-Oli: Wann kommst du? Ich brauche hier Hilfe. Kanst du mir eine Schachtel Zigaretten mitbringen?
+Tubi: Denks du, dass die Menschen dumm sind?
+Chatbot: NEIN! Natürlich nicht! Ich glaube, es ist das Gegenteil.
 
-Tubi:Wie mann sagt "sub-atomic physics" auf Deutsch?
-Oli: Wie mann sagt "sub-atomic physics" auf Deutsch?
+Tubi: Glaubst du, dass Demokratie gut ist?
+Chatbot: Ich glaube, die Demokratie ist das beste politische System, das wir bisher erfinden konnten.
+
 Tubi: {}
-Oli:""".format(question)
+Chatbot:""".format(question)
 
     response = openai.Completion.create(
         engine="davinci",
         prompt=prompt,
         stop="Tubi:",
-        temperature=0.23,
-        max_tokens=150
+        temperature=0.77,
+        max_tokens=300
     )
 
     print(response)
