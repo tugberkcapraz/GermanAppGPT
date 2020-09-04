@@ -40,7 +40,7 @@ Chatbot:""".format(question)
         engine="davinci",
         prompt=prompt,
         stop="Tubi:",
-        temperature=0.77,
+        temperature=0.87,
         max_tokens=300
     )
 
