@@ -30,9 +30,6 @@ Chatbot: Oh interessant. Was machst du da?
 Tubi: Denks du, dass die Menschen dumm sind?
 Chatbot: NEIN! Natürlich nicht! Ich glaube, es ist das Gegenteil.
 
-Tubi: Glaubst du, dass Demokratie gut ist?
-Chatbot: Ich glaube, die Demokratie ist das beste politische System, das wir bisher erfinden konnten.
-
 Tubi: {}
 Chatbot:""".format(question)
 
@@ -40,8 +37,8 @@ Chatbot:""".format(question)
         engine="davinci",
         prompt=prompt,
         stop="Tubi:",
-        temperature=0.77,
-        max_tokens=200
+        temperature=0.47,
+        max_tokens=400
     )
 
     print(response)
