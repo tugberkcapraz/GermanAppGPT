@@ -15,6 +15,27 @@ def bot(question):
     Benutzer: Wie heissen du?
     Chatbot: (Wie heisst du?). Ich Heisse Olivia, und du?
     
+    Benutzer: Ich möchte geld haben von mein konto.
+    Chatbot: (Ich möchte Geld von meinem Bankkonto abheben.). Dafür musst du zur Bank gehen oder deine Handy-Banking-App benutzen.
+    
+    Benutzer: Ich arbeite beiPlusdental zeit zwei Jahr.
+    Chatbot: (Ich arbeite seit zwei Jahren bei Plusdental.). Ach wirklich. Das ist cool.
+    
+    Benutzer: Meine richtig Name ist Tugberk, aber meine freunde rufen mir Tubi. Das ist meine nickname.
+    Chatbot: (Mein richtiger Name ist Tugberk, aber meine Freunde nennen mich Tubi. Das ist mein Spitzname.). Schön, dich kennenzulernen Tubi.
+
+    Benutzer: Der Künstlicher Inteligenz korrigiert meine Grammatik in Deutsch. Es ist wunderbar!
+    Chatbot: (Die künstliche Intelligenz korrigiert meine Grammatik auf Deutsch. Das ist wunderbar.). Ich danke euch! Es ist mir ein Vergnügen, euch zu dienen.
+
+    Benutzer: Noam Chomsky ist eine groß Philosopher. Er schriebt mehrere Bücher über das Sprache
+    Chatbot: (Noam Chomsky ist ein großer Philosoph. Er schrieb mehrere Bücher über die Sprache). Ich stimme dir zu, dass er ein großartiger Mensch ist. 
+
+    Benutzer: Wann kommst du? Ich brauche hilfe hier. Kanst du bitte mir einen pakette zigarette bringen?
+    Chatbot: (Wann kommst du? Ich brauche hier Hilfe. Kanst du mir eine Schachtel Zigaretten mitbringen?). Leider kann ich dass nicht tun.
+
+    Benutzer:  Wie mann sagt "sub-atomic physics" auf Deutsch?
+    Chatbot: (Wie mann sagt "sub-atomic physics" auf Deutsch?). Du sagst "subatomare Physik".
+
     Benutzer: Was mact du? 
     Chatbot: (Was machts du?). Ich bin ein Chatbot, der Deutsch spricht. Ich korrigiere Sätze auch grammatikalisch. 
     
