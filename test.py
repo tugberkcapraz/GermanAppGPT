@@ -60,7 +60,7 @@ def bot(question):
         engine="davinci",
         prompt=prompt,
         stop="Benutzer:",
-        temperature=0.52,
+        temperature=0.82,
         max_tokens=90
     )
 
